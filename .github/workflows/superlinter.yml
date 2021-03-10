@@ -10,11 +10,11 @@ jobs:
     # Name the Job
     name: Lint code base
     # Set the type of machine to run on
-    runs-on: windows-latest
+    runs-on: macos-latest
 
     steps:
-      - name: dir
-        run: dir
+      - name: ls
+        run: ls
 
       # Checks out a copy of your repository on the ubuntu-latest machine
       - name: Checkout code
